@@ -11,10 +11,10 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		41928323EE2B4EDF03BC0223 /* libPods-ChallengeDHW-ChallengeDHWTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49B34B4C98BED3C6BEBDF255 /* libPods-ChallengeDHW-ChallengeDHWTests.a */; };
 		44054CB335714B8503269BEE /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = AA20B3D2AE748EA99986C861 /* PrivacyInfo.xcprivacy */; };
-		7BBD89F2E2753E9D6D0E8DD2 /* libPods-ChallengeDHW-ChallengeDHWTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 21993CC2192E4C1150968702 /* libPods-ChallengeDHW-ChallengeDHWTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		87AA0050385A9A9723A5D9F4 /* libPods-ChallengeDHW.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A0CA4F80B5D823F32FC1E90 /* libPods-ChallengeDHW.a */; };
+		83EF7B04864C1C80E7906AB6 /* libPods-ChallengeDHW.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AA10D03F2E723054083385B /* libPods-ChallengeDHW.a */; };
 		AD35FDF4D216454BB79646A1 /* OpenSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DF9753A1F4314E3183BB6798 /* OpenSans-SemiBold.ttf */; };
 		EF57DEACFA814C0F906C45BC /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 449A3C0055F4414CA97A5301 /* OpenSans-Regular.ttf */; };
 		F550F72218194E1EACE65CEA /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C3B9F0DC3EAC43FCA0F6EA12 /* Poppins-Bold.ttf */; };
@@ -34,24 +34,24 @@
 		00E356EE1AD99517003FC87E /* ChallengeDHWTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChallengeDHWTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* ChallengeDHWTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChallengeDHWTests.m; sourceTree = "<group>"; };
+		0A6376D76ABB1BB92D48D7F9 /* Pods-ChallengeDHW-ChallengeDHWTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChallengeDHW-ChallengeDHWTests.release.xcconfig"; path = "Target Support Files/Pods-ChallengeDHW-ChallengeDHWTests/Pods-ChallengeDHW-ChallengeDHWTests.release.xcconfig"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* ChallengeDHW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChallengeDHW.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ChallengeDHW/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = ChallengeDHW/AppDelegate.mm; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ChallengeDHW/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ChallengeDHW/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ChallengeDHW/main.m; sourceTree = "<group>"; };
-		1A8D989D746646CD4DD687E0 /* Pods-ChallengeDHW-ChallengeDHWTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChallengeDHW-ChallengeDHWTests.debug.xcconfig"; path = "Target Support Files/Pods-ChallengeDHW-ChallengeDHWTests/Pods-ChallengeDHW-ChallengeDHWTests.debug.xcconfig"; sourceTree = "<group>"; };
-		21993CC2192E4C1150968702 /* libPods-ChallengeDHW-ChallengeDHWTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ChallengeDHW-ChallengeDHWTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		449A3C0055F4414CA97A5301 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-Regular.ttf"; path = "../src/assets/fonts/OpenSans-Regular.ttf"; sourceTree = "<group>"; };
-		4D05BCA464ADBB66308477E4 /* Pods-ChallengeDHW.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChallengeDHW.debug.xcconfig"; path = "Target Support Files/Pods-ChallengeDHW/Pods-ChallengeDHW.debug.xcconfig"; sourceTree = "<group>"; };
-		4F0F18E884F0B2392CCB06D9 /* Pods-ChallengeDHW-ChallengeDHWTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChallengeDHW-ChallengeDHWTests.release.xcconfig"; path = "Target Support Files/Pods-ChallengeDHW-ChallengeDHWTests/Pods-ChallengeDHW-ChallengeDHWTests.release.xcconfig"; sourceTree = "<group>"; };
-		6A0CA4F80B5D823F32FC1E90 /* libPods-ChallengeDHW.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ChallengeDHW.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49B34B4C98BED3C6BEBDF255 /* libPods-ChallengeDHW-ChallengeDHWTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ChallengeDHW-ChallengeDHWTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F64FE9D8A1BF27B51A8A03A /* Pods-ChallengeDHW-ChallengeDHWTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChallengeDHW-ChallengeDHWTests.debug.xcconfig"; path = "Target Support Files/Pods-ChallengeDHW-ChallengeDHWTests/Pods-ChallengeDHW-ChallengeDHWTests.debug.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ChallengeDHW/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8AA10D03F2E723054083385B /* libPods-ChallengeDHW.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ChallengeDHW.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA20B3D2AE748EA99986C861 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = ChallengeDHW/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		C3B9F0DC3EAC43FCA0F6EA12 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Bold.ttf"; path = "../src/assets/fonts/Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		D3C6E25D68BE47E45EE10234 /* Pods-ChallengeDHW.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChallengeDHW.debug.xcconfig"; path = "Target Support Files/Pods-ChallengeDHW/Pods-ChallengeDHW.debug.xcconfig"; sourceTree = "<group>"; };
+		DC63AA98F6AFA837003BB875 /* Pods-ChallengeDHW.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChallengeDHW.release.xcconfig"; path = "Target Support Files/Pods-ChallengeDHW/Pods-ChallengeDHW.release.xcconfig"; sourceTree = "<group>"; };
 		DF9753A1F4314E3183BB6798 /* OpenSans-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-SemiBold.ttf"; path = "../src/assets/fonts/OpenSans-SemiBold.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		FDB2638069ABBD1D054DB239 /* Pods-ChallengeDHW.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChallengeDHW.release.xcconfig"; path = "Target Support Files/Pods-ChallengeDHW/Pods-ChallengeDHW.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7BBD89F2E2753E9D6D0E8DD2 /* libPods-ChallengeDHW-ChallengeDHWTests.a in Frameworks */,
+				41928323EE2B4EDF03BC0223 /* libPods-ChallengeDHW-ChallengeDHWTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,7 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				87AA0050385A9A9723A5D9F4 /* libPods-ChallengeDHW.a in Frameworks */,
+				83EF7B04864C1C80E7906AB6 /* libPods-ChallengeDHW.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -109,8 +109,8 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				6A0CA4F80B5D823F32FC1E90 /* libPods-ChallengeDHW.a */,
-				21993CC2192E4C1150968702 /* libPods-ChallengeDHW-ChallengeDHWTests.a */,
+				8AA10D03F2E723054083385B /* libPods-ChallengeDHW.a */,
+				49B34B4C98BED3C6BEBDF255 /* libPods-ChallengeDHW-ChallengeDHWTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -160,10 +160,10 @@
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				4D05BCA464ADBB66308477E4 /* Pods-ChallengeDHW.debug.xcconfig */,
-				FDB2638069ABBD1D054DB239 /* Pods-ChallengeDHW.release.xcconfig */,
-				1A8D989D746646CD4DD687E0 /* Pods-ChallengeDHW-ChallengeDHWTests.debug.xcconfig */,
-				4F0F18E884F0B2392CCB06D9 /* Pods-ChallengeDHW-ChallengeDHWTests.release.xcconfig */,
+				D3C6E25D68BE47E45EE10234 /* Pods-ChallengeDHW.debug.xcconfig */,
+				DC63AA98F6AFA837003BB875 /* Pods-ChallengeDHW.release.xcconfig */,
+				6F64FE9D8A1BF27B51A8A03A /* Pods-ChallengeDHW-ChallengeDHWTests.debug.xcconfig */,
+				0A6376D76ABB1BB92D48D7F9 /* Pods-ChallengeDHW-ChallengeDHWTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -175,12 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "ChallengeDHWTests" */;
 			buildPhases = (
-				7F9F0377B9A6BA8EC1C650D6 /* [CP] Check Pods Manifest.lock */,
+				A2824DF7F4CA4C460E7103E2 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				AA270B5CB65DABF8210652C5 /* [CP] Embed Pods Frameworks */,
-				90D663C5748626017CB54FEE /* [CP] Copy Pods Resources */,
+				55C8290ABD68AED70DAB5E55 /* [CP] Embed Pods Frameworks */,
+				7FB3119E085F8662506CA1C9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -196,14 +196,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "ChallengeDHW" */;
 			buildPhases = (
-				536BC601CC23DBC3B93D6A00 /* [CP] Check Pods Manifest.lock */,
+				FD8C37827F70174362CD6C30 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				61B29281F1EA1F433BD34C56 /* [CP] Embed Pods Frameworks */,
-				01F8891572F1B93D453E5464 /* [CP] Copy Pods Resources */,
+				1EC20A7710E4C65E0455F055 /* [CP] Embed Pods Frameworks */,
+				4291F6C271A0D3BE05B4E1BB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -290,46 +290,7 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
 		};
-		01F8891572F1B93D453E5464 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ChallengeDHW/Pods-ChallengeDHW-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ChallengeDHW/Pods-ChallengeDHW-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ChallengeDHW/Pods-ChallengeDHW-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		536BC601CC23DBC3B93D6A00 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ChallengeDHW-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		61B29281F1EA1F433BD34C56 /* [CP] Embed Pods Frameworks */ = {
+		1EC20A7710E4C65E0455F055 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -346,7 +307,58 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ChallengeDHW/Pods-ChallengeDHW-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		7F9F0377B9A6BA8EC1C650D6 /* [CP] Check Pods Manifest.lock */ = {
+		4291F6C271A0D3BE05B4E1BB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChallengeDHW/Pods-ChallengeDHW-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChallengeDHW/Pods-ChallengeDHW-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ChallengeDHW/Pods-ChallengeDHW-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		55C8290ABD68AED70DAB5E55 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChallengeDHW-ChallengeDHWTests/Pods-ChallengeDHW-ChallengeDHWTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChallengeDHW-ChallengeDHWTests/Pods-ChallengeDHW-ChallengeDHWTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ChallengeDHW-ChallengeDHWTests/Pods-ChallengeDHW-ChallengeDHWTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7FB3119E085F8662506CA1C9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChallengeDHW-ChallengeDHWTests/Pods-ChallengeDHW-ChallengeDHWTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChallengeDHW-ChallengeDHWTests/Pods-ChallengeDHW-ChallengeDHWTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ChallengeDHW-ChallengeDHWTests/Pods-ChallengeDHW-ChallengeDHWTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A2824DF7F4CA4C460E7103E2 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -368,40 +380,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		90D663C5748626017CB54FEE /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ChallengeDHW-ChallengeDHWTests/Pods-ChallengeDHW-ChallengeDHWTests-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ChallengeDHW-ChallengeDHWTests/Pods-ChallengeDHW-ChallengeDHWTests-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ChallengeDHW-ChallengeDHWTests/Pods-ChallengeDHW-ChallengeDHWTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		AA270B5CB65DABF8210652C5 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ChallengeDHW-ChallengeDHWTests/Pods-ChallengeDHW-ChallengeDHWTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ChallengeDHW-ChallengeDHWTests/Pods-ChallengeDHW-ChallengeDHWTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ChallengeDHW-ChallengeDHWTests/Pods-ChallengeDHW-ChallengeDHWTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -419,6 +397,28 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FD8C37827F70174362CD6C30 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChallengeDHW-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -454,7 +454,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1A8D989D746646CD4DD687E0 /* Pods-ChallengeDHW-ChallengeDHWTests.debug.xcconfig */;
+			baseConfigurationReference = 6F64FE9D8A1BF27B51A8A03A /* Pods-ChallengeDHW-ChallengeDHWTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Manual;
@@ -484,7 +484,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4F0F18E884F0B2392CCB06D9 /* Pods-ChallengeDHW-ChallengeDHWTests.release.xcconfig */;
+			baseConfigurationReference = 0A6376D76ABB1BB92D48D7F9 /* Pods-ChallengeDHW-ChallengeDHWTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Manual;
@@ -511,7 +511,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4D05BCA464ADBB66308477E4 /* Pods-ChallengeDHW.debug.xcconfig */;
+			baseConfigurationReference = D3C6E25D68BE47E45EE10234 /* Pods-ChallengeDHW.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -542,7 +542,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FDB2638069ABBD1D054DB239 /* Pods-ChallengeDHW.release.xcconfig */;
+			baseConfigurationReference = DC63AA98F6AFA837003BB875 /* Pods-ChallengeDHW.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
