@@ -1,0 +1,119 @@
+diff --git a/node_modules/rn-responsive-styles/lib/helpers.d.ts b/node_modules/rn-responsive-styles/lib/helpers.d.ts
+index be91cf6..9b0eae6 100644
+--- a/node_modules/rn-responsive-styles/lib/helpers.d.ts
++++ b/node_modules/rn-responsive-styles/lib/helpers.d.ts
+@@ -1,4 +1,4 @@
+ import { DEVICE_SIZES, MEDIA_QUERY } from './types';
+-export declare function deviceSize(breakpoints: number[]): (width: number) => DEVICE_SIZES;
++export declare function deviceSize(breakpoints: number[]): (size: number) => DEVICE_SIZES;
+ export declare function minSize(size: DEVICE_SIZES): MEDIA_QUERY;
+ export declare function maxSize(size: DEVICE_SIZES): MEDIA_QUERY;
+diff --git a/node_modules/rn-responsive-styles/lib/helpers.js b/node_modules/rn-responsive-styles/lib/helpers.js
+index 384bb32..0c9a5e3 100644
+--- a/node_modules/rn-responsive-styles/lib/helpers.js
++++ b/node_modules/rn-responsive-styles/lib/helpers.js
+@@ -1,6 +1,10 @@
+ import { DEVICE_SIZES } from './types';
+ // Used to determine what sizes should be included in media queries
+ const sizeOrder = [
++    DEVICE_SIZES.MOBILE_SMALL_DEVICE,
++    DEVICE_SIZES.MOBILE_MEDIUM_DEVICE,
++    DEVICE_SIZES.MOBILE_LARGE_DEVICE,
++    DEVICE_SIZES.MOBILE_XLARGE_DEVICE,
+     DEVICE_SIZES.EXTRA_SMALL_DEVICE,
+     DEVICE_SIZES.SMALL_DEVICE,
+     DEVICE_SIZES.MEDIUM_DEVICE,
+@@ -9,16 +13,14 @@ const sizeOrder = [
+ ];
+ // Default breakpoint sizes
+ export function deviceSize(breakpoints) {
+-    return (width) => {
+-        if (width > breakpoints[0])
+-            return DEVICE_SIZES.EXTRA_LARGE_DEVICE;
+-        if (width > breakpoints[1])
+-            return DEVICE_SIZES.LARGE_DEVICE;
+-        if (width > breakpoints[2])
+-            return DEVICE_SIZES.MEDIUM_DEVICE;
+-        if (width > breakpoints[3])
+-            return DEVICE_SIZES.SMALL_DEVICE;
+-        return DEVICE_SIZES.EXTRA_SMALL_DEVICE;
++    return (size) => {
++        if (size > breakpoints[1])
++            return DEVICE_SIZES.MOBILE_XLARGE_DEVICE;
++        if (size > breakpoints[2])
++            return DEVICE_SIZES.MOBILE_LARGE_DEVICE;
++        if (size > breakpoints[3])
++            return DEVICE_SIZES.MOBILE_MEDIUM_DEVICE;
++            return DEVICE_SIZES.MOBILE_SMALL_DEVICE
+     };
+ }
+ // Will include styling for all sizes equal to or larger than the size
+diff --git a/node_modules/rn-responsive-styles/lib/hooks/useDeviceSize.js b/node_modules/rn-responsive-styles/lib/hooks/useDeviceSize.js
+index 5b3da38..142d47e 100644
+--- a/node_modules/rn-responsive-styles/lib/hooks/useDeviceSize.js
++++ b/node_modules/rn-responsive-styles/lib/hooks/useDeviceSize.js
+@@ -24,5 +24,5 @@ export default function useDeviceSize() {
+                 listener.remove();
+         };
+     }, [size]);
+-    return size(dims.width);
++    return size(dims.height);
+ }
+diff --git a/node_modules/rn-responsive-styles/lib/providers/BreakpointsProvider.js b/node_modules/rn-responsive-styles/lib/providers/BreakpointsProvider.js
+index 2ffed61..dfe6c8d 100644
+--- a/node_modules/rn-responsive-styles/lib/providers/BreakpointsProvider.js
++++ b/node_modules/rn-responsive-styles/lib/providers/BreakpointsProvider.js
+@@ -1,5 +1,5 @@
+ import * as React from 'react';
+-const BreakpointsContext = React.createContext([1200, 992, 768, 540]);
++const BreakpointsContext = React.createContext([1200,1000,845,750]);
+ export const useBreakpoints = () => React.useContext(BreakpointsContext);
+ export function BreakpointsProvider({ children, breakpoints }) {
+     return React.createElement(BreakpointsContext.Provider, { value: breakpoints }, children);
+diff --git a/node_modules/rn-responsive-styles/lib/types.d.ts b/node_modules/rn-responsive-styles/lib/types.d.ts
+index 4e08ca2..4c82c0c 100644
+--- a/node_modules/rn-responsive-styles/lib/types.d.ts
++++ b/node_modules/rn-responsive-styles/lib/types.d.ts
+@@ -1,10 +1,18 @@
+ export declare type MEDIA_QUERY = string;
+ export declare enum DEVICE_SIZES {
++    MOBILE_XLARGE_DEVICE="mobileXLarge",
++    MOBILE_LARGE_DEVICE="mobileLarge",
++    MOBILE_MEDIUM_DEVICE="mobileMedium",
++    MOBILE_SMALL_DEVICE="mobileSmall",
+     EXTRA_SMALL_DEVICE = "extrasmall",
+     SMALL_DEVICE = "small",
+     MEDIUM_DEVICE = "medium",
+     LARGE_DEVICE = "large",
+     EXTRA_LARGE_DEVICE = "extralarge",
++    MS="mobileSmall",
++    MM="mobileMedium",
++    ML="mobileLarge",
++    MXL="mobileXLarge",
+     XS = "extrasmall",
+     SM = "small",
+     MD = "medium",
+diff --git a/node_modules/rn-responsive-styles/lib/types.js b/node_modules/rn-responsive-styles/lib/types.js
+index 5277c95..34b90d4 100644
+--- a/node_modules/rn-responsive-styles/lib/types.js
++++ b/node_modules/rn-responsive-styles/lib/types.js
+@@ -1,11 +1,19 @@
+ export var DEVICE_SIZES;
+ (function (DEVICE_SIZES) {
++    DEVICE_SIZES["MOBILE_XLARGE_DEVICE"] = "mobileXLarge";
++    DEVICE_SIZES["MOBILE_LARGE_DEVICE"] = "mobileLarge";
++    DEVICE_SIZES["MOBILE_MEDIUM_DEVICE"] = "mobileMedium";
++    DEVICE_SIZES["MOBILE_SMALL_DEVICE"] = "mobileSmall";
+     DEVICE_SIZES["EXTRA_SMALL_DEVICE"] = "extrasmall";
+     DEVICE_SIZES["SMALL_DEVICE"] = "small";
+     DEVICE_SIZES["MEDIUM_DEVICE"] = "medium";
+     DEVICE_SIZES["LARGE_DEVICE"] = "large";
+     DEVICE_SIZES["EXTRA_LARGE_DEVICE"] = "extralarge";
+     // Device shorthands
++    DEVICE_SIZES["MS"] = "mobileSmall";
++    DEVICE_SIZES["MM"] = "mobileMedium";
++    DEVICE_SIZES["ML"] = "mobileLarge";
++    DEVICE_SIZES["MXL"] = "mobileXLarge";
+     DEVICE_SIZES["XS"] = "extrasmall";
+     DEVICE_SIZES["SM"] = "small";
+     DEVICE_SIZES["MD"] = "medium";

@@ -1,0 +1,130 @@
+import {CreateResponsiveStyle} from 'rn-responsive-styles';
+import theme from '@app/theme/theme';
+
+export default CreateResponsiveStyle({
+  container: {
+    borderRadius: 16,
+    width: '100%',
+    backgroundColor: theme.colors.white,
+    shadowColor: theme.colors.black,
+    shadowOffset: {
+      width: 0,
+      height: 1,
+    },
+    shadowOpacity: 0.22,
+    shadowRadius: 2.22,
+    elevation: 3,
+    paddingVertical: 8,
+    paddingLeft: 12,
+    paddingRight: 16,
+    flexDirection: 'row',
+    gap: 8,
+    justifyContent: 'center',
+  },
+  containerVertical: {
+    flexDirection: 'column',
+    alignItems: 'center',
+    paddingVertical: 16,
+    paddingRight: 16,
+    paddingLeft: 16,
+    width: 165,
+  },
+  campaignTag: {
+    borderRadius: 16,
+    paddingVertical: 3,
+    paddingHorizontal: 8,
+    alignSelf: 'flex-start',
+  },
+  campaignTagText: {
+    color: theme.colors.white,
+    textTransform: 'uppercase',
+    fontFamily: theme.fonts.OpenSans.Semi_Bold,
+    fontSize: theme.fonts.fontSize.xsmall,
+  },
+  productImage: {
+    width: 90,
+    height: 100,
+    backgroundColor: theme.colors.iron,
+    position: 'relative',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  productImageVertical: {
+    width: 80,
+    height: 80,
+  },
+  btnAddProduct: {
+    width: 38,
+    height: 36,
+    borderWidth: 1,
+    borderColor: theme.colors.panache,
+    borderRadius: 12,
+    position: 'absolute',
+    right: 0,
+    top: 5,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: theme.colors.white,
+  },
+  containerNoStockContainer: {
+    width: 80,
+    height: 80,
+    justifyContent: 'flex-end',
+    alignItems: 'center',
+    position: 'absolute',
+    bottom: 5,
+  },
+  containerNoStockContainerVertical: {
+    paddingBottom: 7,
+  },
+  noStockContainer: {
+    width: 72,
+    backgroundColor: theme.colors.link_water,
+    borderRadius: 2,
+  },
+  noStockText: {
+    fontSize: theme.fonts.fontSize.xsmall,
+    textAlign: 'center',
+    fontFamily: theme.fonts.OpenSans.Semi_Bold,
+    textTransform: 'uppercase',
+    color: theme.colors.navy_blue,
+  },
+  iconBag: {
+    width: 24,
+    height: 24,
+  },
+  productDescription: {
+    flex: 1,
+    width: '100%',
+    paddingRight: 8,
+    paddingVertical: 8,
+    gap: 4,
+    justifyContent: 'space-between',
+  },
+  productDescriptionVertical: {
+    paddingRight: 0,
+    paddingVertical: 0,
+  },
+  productBrand: {
+    fontSize: theme.fonts.fontSize.small,
+    fontFamily: theme.fonts.OpenSans.Regular,
+    textTransform: 'uppercase',
+    color: theme.colors.rolling_stone,
+  },
+  productBrandVertical: {
+    fontSize: theme.fonts.fontSize.small - 2,
+    width: '100%',
+  },
+  productName: {
+    fontSize: theme.fonts.fontSize.smallRegular,
+    fontFamily: theme.fonts.OpenSans.Semi_Bold,
+    color: theme.colors.outer_space,
+  },
+  productNameVertical: {
+    fontSize: theme.fonts.fontSize.small,
+    width: '100%',
+  },
+  addBtn: {
+    height: 34,
+  },
+});

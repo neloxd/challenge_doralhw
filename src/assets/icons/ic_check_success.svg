@@ -1,0 +1,13 @@
+<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Group 12">
+<circle id="Ellipse 303" cx="10" cy="10" r="10" fill="url(#paint0_linear_17466_18325)"/>
+<path id="Vector 61 (Stroke)" fill-rule="evenodd" clip-rule="evenodd" d="M14.1679 6.25577C14.5789 6.62464 14.6131 7.25689 14.2442 7.66792L8.85963 13.6679C8.67548 13.8731 8.41479 13.9932 8.13916 13.9997C7.86353 14.0063 7.59742 13.8987 7.40373 13.7025L5.78835 12.0662C5.40035 11.6731 5.40443 11.04 5.79747 10.652C6.19051 10.264 6.82366 10.2681 7.21165 10.6611L8.0807 11.5414L12.7558 6.3321C13.1246 5.92107 13.7569 5.88689 14.1679 6.25577Z" fill="white"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_17466_18325" x1="-1.86264e-07" y1="20" x2="20" y2="-1.86264e-07" gradientUnits="userSpaceOnUse">
+<stop stop-color="#2DC913"/>
+<stop offset="0.0001" stop-color="#2DC913"/>
+<stop offset="1" stop-color="#6FED5B"/>
+</linearGradient>
+</defs>
+</svg>
